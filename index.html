@@ -177,6 +177,7 @@
             };
             if (k == 1 && gui.state == 'walk' && time % 0.5 < 0.01) {
                 k = 0;
+                tween();
             };
             if (k == 1) {
                 idle.update();
